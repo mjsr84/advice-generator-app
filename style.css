@@ -28,6 +28,8 @@ body {
     background-color: var(--Dark-Grayish-Blue);
     border-radius: 1rem;
     position: relative;
+    border: 2px solid var(--Neon-Green);
+    box-shadow: 0 0 2rem hsl(150, 100%, 66%);
 }
 
 
@@ -46,10 +48,14 @@ p {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 12px;
+    text-decoration: underline;
+    text-decoration-color: var(--Light-Cyan);
 }
 
 h2 {
     color: var(--Light-Cyan);
+    text-decoration: underline;
+    text-decoration-color: var(--Neon-Green);
 }
 
 picture img {
@@ -62,7 +68,7 @@ button {
     background-color: var(--Neon-Green);
     border: none;
     padding: 1rem;
-    border-radius: 50%;
+    border-radius: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
