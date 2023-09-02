@@ -2,7 +2,7 @@
 
 :root {
     --Light-Cyan: hsl(193, 38%, 86%);
-    --Neon-Green: hsl(150, 100%, 66%);
+    --Neon-Green: rgb(174, 255, 0);
     --Grayish-Blue: hsl(217, 19%, 38%);
     --Dark-Grayish-Blue: hsl(217, 19%, 24%);
     --Dark-Blue: hsl(218, 23%, 16%);
@@ -29,7 +29,7 @@ body {
     border-radius: 1rem;
     position: relative;
     border: 2px solid var(--Neon-Green);
-    box-shadow: 0 0 2rem hsl(150, 100%, 66%);
+    box-shadow: 0 0 2rem var(--Neon-Green);
 }
 
 
@@ -76,7 +76,7 @@ button {
 }
 
 button:hover {
-    filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
+    filter: drop-shadow(0 0 0.75rem var(--Neon-Green));
     transition: all 0.2% ease-out;
 }
 
